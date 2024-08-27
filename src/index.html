@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap" rel="stylesheet">
+  <!-- font end -->
+
+  <link href="./css/output.css" rel="stylesheet">
+</head>
+<body>
+    <div class="relative bg-cover bg-center" style="background-image: url(./assets/img/hero.png);">
+        <div  class="absolute inset-0 bg-gradient-to-tr from-black via-transparent to-transparent opacity-50"></div>
+  <!-- navbar start -->
+   <section id="navbar " class="relative z-10 justify-center">
+    <div class="container flex justify-between items-center mx-auto px-8 py-4  top-0 w-full">
+        <div>
+            <button class="font-clicker font-bold text-2xl md:text-3xl lg:text-[35px] text-white">Coffe Bean</button>
+        </div>
+        <div class="hidden md:flex">
+            <ul class="list-none flex text-base font-medium text-slate-800 font-playfair">
+                <li><button class="mx-4 text-white text-lg font-semibold">Home</button></li>
+                <li><button class="mx-4 text-white text-lg font-semibold">Menu</button></li>
+                <li><button class="mx-4 text-white text-lg font-semibold">About Us</button></li>
+                <li><button class="mx-4 text-white text-lg font-semibold">Contact Us</button></li>
+            </ul>
+        </div>
+        <div class="hidden sm:flex font-playfair">
+            <button class="mx-2 text-white text-lg font-semibold">Sign In</button>
+            <button class="mx-2 text-white text-lg font-semibold bg-customYellow hover:bg-orange-500 duration-500 px-4 py-2 rounded-full">Sign Up</button>
+        </div>
+        <div class="fixed bottom-0 right-0 left-0 sm:hidden">
+            <!-- Tombol Sign In dan Sign Up -->
+            <div id="auth-buttons" class="flex justify-center mb-4 gap-1 opacity-0 transition-opacity duration-500 ease-in-out" style="display: none;">
+                <button class="flex-1 bg-transparent rounded-full px-4 py-2 text-sm text-gray-900 mx-2">Sign In</button>
+                <button class="flex-1 bg-customYellow rounded-full px-4 py-2 text-sm text-white mx-2">Sign Up</button>
+            </div>
+            
+            <!-- Menu List -->
+            <div class="">
+                <ul class="flex justify-center gap-4 bg-cokelat">
+                    <li><button class="mx-4 flex flex-col items-center">
+                        <img src="./assets/icon/home.svg" alt="home" class="w-[30px] h-340px] "> 
+                    </button></li>
+                    <li><button class="mx-4 flex flex-col items-center">
+                        <img src="./assets/icon/menu.svg" alt="menu" class="w-[30px] h-[30px]">
+                    </button></li>
+                    <li><button class="mx-4 flex flex-col items-center">
+                        <img src="./assets/icon/contact.svg" alt="contact" class="w-[30px] h-[30px]">
+                    </button></li>
+                    <li><button class="mx-4 flex flex-col items-center">
+                        <img src="./assets/icon/cart.svg" alt="cart" class="w-[30px] h-[30px]">
+                    </button></li>
+                    <li><button id="more-button" class="mx-4 flex justify-center flex-col items-center">
+                        <img src="./assets/icon/more.svg" alt="more" class="w-[30px] h-[30px]">
+                    </button></li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+   </section>
+  <!-- navbar end -->
+
+  <!-- hero start -->
+   <section id="hero" class="relative z-10 px-8 bg-blend-multiply">
+    <div class="container ">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+            <div class="py-10 justify-items-center">
+                <div>
+                    <p class="text-white font-playfair font-medium text-base sm:text-lg mb-3">We've got your morning covered with</p>
+                    <h1 class="text-white font-clicker font-extrabold text-6xl sm:text-8xl lg:text-9xl duration-300 mb-3">Coffee</h1>
+                    <p class="text-white font-playfair font-medium text-base sm:text-lg mb-3">It is best to start your day with a cup of coffee. Discover the
+                        best flavours coffee you will ever have. We provide the best
+                        for our customers.</p>
+                    <button class="px-5 text-base sm:text-lg md:text-2xl py-3 font-playfair bg-customYellow rounded-full hover:bg-orange-500 duration-500">Order Now</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+   </section>
+   <!-- hero end -->
+    </div>
+
+    <!-- discover start -->
+     <section id="discover" class="px-8 justify-center py-10 sm:py-20 items-center text-center sm:text-left bg-stone-50">
+        <div class="container ">
+            <div class="grid sm:grid-cols-2 gap-4">
+                <div>
+                    <h1 class="font-playfair text-4xl sm:text-[54px] font-bold text-cokelat mb-4">Discover the best coffee</h1>
+                    <p class="font-playfair text-xl text-gray-800 mb-2">Bean Scene is a coffee shop that provides you with quality coffee that helps boost your productivity and helps build your mood. Having a cup of coffee is good, but having a cup of real coffee is greater. There is no doubt that you will enjoy this coffee more than others you have ever tasted.</p>
+                    <button class=" bg-customYellow rounded-full px-4 py-2 text-sm text-white mx-2">Learn More</button>
+                </div>
+                <div>
+                    <img src="./assets/img/Mask group.svg" alt="img" class="bg-cover bg-center">
+                </div>
+            </div>
+
+        </div>
+        
+     </section>
+     <!-- discover end -->
+
+     <!-- product start -->
+      <section id="product" class="px-8 justify-center items-center  bg-stone-50">
+        <div class="container">
+            <div class="mb-8 text-center">
+                <h1 class="font-playfair font-bold text-4xl sm:text-[50px] text-cokelat mb-2">Enjoy a new blend of coffee style</h1>
+                <p class="font-playfair text-xl text-gray-800">Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"">
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="./assets/img/capuchino.png" alt="Cappuccino">
+                    <div class="p-6">
+                        <h2 class="text-xl font-bold text-cokelat mb-1">Cappuccino</h2>
+                        <p class="text-gray-600 mb-4">Coffee 50% | Milk 50%</p>
+                        <div class="flex items-center justify-between mb-2">
+                            <p class="text-cokelat font-semibold">$8.50</p>
+                            <button class="bg-customYellow text-white px-4 py-2 rounded-lg hover:bg-yellow-600">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="./assets/img/chai_latte.png" alt="Cappuccino">
+                    <div class="p-6">
+                        <h2 class="text-xl font-bold text-cokelat mb-1">Chai Latte</h2>
+                        <p class="text-gray-600 mb-4">Coffee 50% | Milk 50%</p>
+                        <div class="flex items-center justify-between mb-2">
+                            <p class="text-cokelat font-semibold">$8.50</p>
+                            <button class="bg-customYellow text-white px-4 py-2 rounded-lg hover:bg-yellow-600">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="./assets/img/machiatto.png" alt="Machiatto">
+                    <div class="p-6">
+                        <h2 class="text-xl font-bold text-cokelat mb-1">Machiatto</h2>
+                        <p class="text-gray-600 mb-4">Coffee 50% | Milk 50%</p>
+                        <div class="flex items-center justify-between mb-2">
+                            <p class="text-cokelat font-semibold">$8.50</p>
+                            <button class="bg-customYellow text-white px-4 py-2 rounded-lg hover:bg-yellow-600">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="./assets/img/expresso.png" alt="Expresso">
+                    <div class="p-6">
+                        <h2 class="text-xl font-bold text-cokelat mb-1">Expresso</h2>
+                        <p class="text-gray-600 mb-4">Coffee 50% | Milk 50%</p>
+                        <div class="flex items-center justify-between mb-2">
+                            <p class="text-cokelat font-semibold">$8.50</p>
+                            <button class="bg-customYellow text-white px-4 py-2 rounded-lg hover:bg-yellow-600">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+      </section>
+
+  <script>
+    document.getElementById('more-button').addEventListener('click', function() {
+        var authButtons = document.getElementById('auth-buttons');
+        if (authButtons.style.display === 'none') {
+            authButtons.style.display = 'flex';
+            setTimeout(() => {
+                authButtons.classList.remove('opacity-0');
+                authButtons.classList.add('opacity-100');
+            }, 0);
+        } else {
+            authButtons.classList.add('opacity-0');
+            setTimeout(function() {
+                authButtons.style.display = 'none';
+            }, 500); // Match duration with Tailwind
+        }
+    });
+</script>
+
+</body>
+</html>
